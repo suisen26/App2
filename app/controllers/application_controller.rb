@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
     about_path
   end
   
+  #投稿データのストロングパラメータ
   protected
   
   def configure_permitted_parameters
